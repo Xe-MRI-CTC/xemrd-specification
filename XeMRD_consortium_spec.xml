@@ -6,19 +6,27 @@
  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
  xmlns:html="http://www.w3.org/TR/REC-html40">
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
-  <LastAuthor>Willmering, Matthew</LastAuthor>
+  <LastAuthor>David Mummy</LastAuthor>
   <Created>2024-04-23T17:48:42Z</Created>
-  <LastSaved>2024-04-23T17:48:42Z</LastSaved>
+  <LastSaved>2024-07-25T18:09:42Z</LastSaved>
   <Version>16.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>19935</WindowHeight>
-  <WindowWidth>32767</WindowWidth>
-  <WindowTopX>32767</WindowTopX>
-  <WindowTopY>495</WindowTopY>
+  <SupBook>
+   <Startup>/Users/mummy/Library/Group Containers/UBF8T346G9.Office/User Content.localized/Startup.localized/Excel/SaveAsAdobePDF.xlam</Startup>
+   <SheetName>Sheet1</SheetName>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>0</SheetIndex>
+   </Xct>
+  </SupBook>
+  <WindowHeight>17440</WindowHeight>
+  <WindowWidth>28040</WindowWidth>
+  <WindowTopX>3260</WindowTopX>
+  <WindowTopY>2160</WindowTopY>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
  </ExcelWorkbook>
@@ -26,12 +34,12 @@
   <Style ss:ID="Default" ss:Name="Normal">
    <Alignment ss:Vertical="Bottom"/>
    <Borders/>
-   <Font ss:FontName="Calibri" ss:Size="12" ss:Color="#000000"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
    <Interior/>
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="s16">
+  <Style ss:ID="s62">
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
      ss:Color="#000000"/>
@@ -46,7 +54,7 @@
     ss:Bold="1"/>
    <Interior ss:Color="#9FC5E8" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="s17">
+  <Style ss:ID="s63">
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
      ss:Color="#000000"/>
@@ -59,7 +67,7 @@
    </Borders>
    <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
   </Style>
-  <Style ss:ID="s18">
+  <Style ss:ID="s64">
    <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
@@ -73,7 +81,7 @@
    </Borders>
    <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
   </Style>
-  <Style ss:ID="s19">
+  <Style ss:ID="s65">
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
      ss:Color="#000000"/>
@@ -87,7 +95,7 @@
    <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
    <Interior ss:Color="#E7E6E6" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="s20">
+  <Style ss:ID="s66">
    <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
@@ -102,7 +110,7 @@
    <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
    <Interior ss:Color="#F7CAAC" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="s21">
+  <Style ss:ID="s67">
    <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
@@ -114,23 +122,11 @@
     <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
      ss:Color="#000000"/>
    </Borders>
-   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"
+    ss:Bold="1"/>
    <Interior ss:Color="#F7CAAC" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="s22">
-   <Borders>
-    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
-     ss:Color="#000000"/>
-    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
-     ss:Color="#000000"/>
-    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
-     ss:Color="#000000"/>
-    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
-     ss:Color="#000000"/>
-   </Borders>
-   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
-  </Style>
-  <Style ss:ID="s24">
+  <Style ss:ID="s68">
    <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
@@ -145,346 +141,443 @@
    <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
    <Interior ss:Color="#E7E6E6" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="s25">
+  <Style ss:ID="s69">
    <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
   </Style>
-  <Style ss:ID="s27">
+  <Style ss:ID="s70">
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s71">
    <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
    <NumberFormat ss:Format="@"/>
   </Style>
-  <Style ss:ID="s28">
-   <NumberFormat ss:Format="@"/>
-  </Style>
-  <Style ss:ID="s29">
+  <Style ss:ID="s72">
    <NumberFormat ss:Format="Short Date"/>
+  </Style>
+  <Style ss:ID="s77">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s78">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#E7E6E6" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s79">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s81">
+   <Borders/>
+  </Style>
+  <Style ss:ID="s84">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s85">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s86">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s87">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#F7CAAC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s94">
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#FFFFFF"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s95">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#FFFFFF"/>
+   <Interior/>
   </Style>
  </Styles>
  <Worksheet ss:Name="data">
-  <Table ss:ExpandedColumnCount="27" ss:ExpandedRowCount="1002" x:FullColumns="1"
-   x:FullRows="1" ss:DefaultColumnWidth="66.75" ss:DefaultRowHeight="15">
-   <Column ss:AutoFitWidth="0" ss:Width="182.25"/>
+  <Table ss:ExpandedColumnCount="27" ss:ExpandedRowCount="1003" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="67" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="182"/>
    <Column ss:AutoFitWidth="0" ss:Width="111" ss:Span="1"/>
-   <Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="377.25"/>
-   <Column ss:AutoFitWidth="0" ss:Width="189.75"/>
+   <Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="377"/>
+   <Column ss:AutoFitWidth="0" ss:Width="190"/>
    <Column ss:AutoFitWidth="0" ss:Width="63" ss:Span="2"/>
-   <Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="219.75"/>
+   <Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="220"/>
    <Column ss:AutoFitWidth="0" ss:Width="63" ss:Span="17"/>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s16"><Data ss:Type="String">GX pipeline variable</Data></Cell>
-    <Cell ss:StyleID="s16"><Data ss:Type="String">description</Data></Cell>
-    <Cell ss:StyleID="s16"><Data ss:Type="String">units</Data></Cell>
-    <Cell ss:StyleID="s16"><Data ss:Type="String">MRD location field</Data></Cell>
-    <Cell ss:StyleID="s16"><Data ss:Type="String">MRD name/label</Data></Cell>
-    <Cell ss:StyleID="s16"><Data ss:Type="String">calibration</Data></Cell>
-    <Cell ss:StyleID="s16"><Data ss:Type="String">dixon</Data></Cell>
-    <Cell ss:StyleID="s16"><Data ss:Type="String">proton</Data></Cell>
-    <Cell ss:StyleID="s16"><Data ss:Type="String">notes</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">GX pipeline variable</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">description</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">units</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">MRD location field</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">MRD name/label</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">calibration</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">dixon</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">proton</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">notes</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s17"><Data ss:Type="String">scan_date</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">scan date</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">YYYY-MM-DD</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">ismrmrdHeader.studyInformation.studyDate</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">NA</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s20"><Data ss:Type="String">Previous location was ismrmrdHeader.measurementInformation.scandate. Scandate is not a member of the ismrmrdHeader class in ismrmrd python package</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">scan_date</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">scan date</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">YYYY-MM-DD</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ismrmrdHeader.studyInformation.studyDate</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Previous location was ismrmrdHeader.measurementInformation.scandate. Scandate is not a member of the ismrmrdHeader class in ismrmrd python package</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s17"><Data ss:Type="String">subject_id</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">subject ID</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">string</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">ismrmrdHeader.subjectInformation.patientID</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">NA</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s21"><Data ss:Type="String">If unavailable from raw data, you do not need to write the field</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">subject_id</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">subject ID</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ismrmrdHeader.subjectInformation.patientID</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">If unavailable from raw data, you do not need to write the field</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s17"><Data ss:Type="String">system_vendor</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">MRI system vendor (e.g. 'Siemens')</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">string</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">ismrmrdHeader.acquisitionSystemInformation.systemVendor</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">NA</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">system_vendor</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MRI system vendor (e.g. 'Siemens')</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ismrmrdHeader.acquisitionSystemInformation.systemVendor</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s64"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s17"><Data ss:Type="String">institution</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">institution (e.g. 'University of Iowa')</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">string</Data></Cell>
-    <Cell ss:StyleID="s22"><Data ss:Type="String">ismrmrdHeader.acquisitionSystemInformation.institutionName</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">NA</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">institution</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">institution (e.g. 'University of Iowa')</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">string</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ismrmrdHeader.acquisitionSystemInformation.institutionName</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s64"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s17"><Data ss:Type="String">field_strength</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">scanner field strength</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">Tesla</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">ismrmrdHeader.acquisitionSystemInformation.systemFieldStrength_T</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">NA</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">field_strength</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">scanner field strength</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Tesla</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ismrmrdHeader.acquisitionSystemInformation.systemFieldStrength_T</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s64"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s17"><Data ss:Type="String">te90</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">echo time</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">ms</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">ismrmrdHeader.sequenceParameters.TE</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">NA</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">te90</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">echo time</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ms</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ismrmrdHeader.sequenceParameters.TE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s64"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s17"><Data ss:Type="String">tr_proton</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">time bewteen proton excitations</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">ms</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">ismrmrdHeader.sequenceParameters.TR[0]</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">NA</Data></Cell>
-    <Cell ss:StyleID="s17"/>
-    <Cell ss:StyleID="s17"/>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">tr_proton</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">time bewteen proton excitations</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ms</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ismrmrdHeader.sequenceParameters.TR[0]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s64"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s17"><Data ss:Type="String">tr_gas</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">Calibration sequence: time between gas excitations. Dixon sequence: time from gas to dissolved excitation</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">ms</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">ismrmrdHeader.sequenceParameters.TR[0]</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">NA</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s17"/>
-    <Cell ss:StyleID="s21"><Data ss:Type="String">Note that in interleaved sequences, this can be different from tr_dis</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">tr_gas</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Calibration sequence: time between gas excitations. Dixon sequence: time from gas to dissolved excitation</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ms</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ismrmrdHeader.sequenceParameters.TR[0]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Note that in interleaved sequences, this can be different from tr_dis</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s17"><Data ss:Type="String">tr_dis</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">Calibration sequence: time between dissolved excitations. Dixon sequence: time from dissolved to gas excitation</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">ms</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">ismrmrdHeader.sequenceParameters.TR[1]</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">NA</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s17"/>
-    <Cell ss:StyleID="s21"><Data ss:Type="String">Note that in interleaved sequences, this can be different from tr_gas</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">tr_dis</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Calibration sequence: time between dissolved excitations. Dixon sequence: time from dissolved to gas excitation</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ms</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ismrmrdHeader.sequenceParameters.TR[1]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Note that in interleaved sequences, this can be different from tr_gas</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s17"><Data ss:Type="String">flip_angle_proton</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">proton flip angle</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">degrees</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">ismrmrdHeader.sequenceParameters.flipAngle_deg[0]</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">NA</Data></Cell>
-    <Cell ss:StyleID="s17"/>
-    <Cell ss:StyleID="s17"/>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">flip_angle_proton</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">proton flip angle</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">degrees</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ismrmrdHeader.sequenceParameters.flipAngle_deg[0]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s64"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s17"><Data ss:Type="String">flip_angle_gas</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">gas phase flip angle</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">degrees</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">ismrmrdHeader.sequenceParameters.flipAngle_deg[0]</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">NA</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s17"/>
-    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">flip_angle_gas</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">gas phase flip angle</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">degrees</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ismrmrdHeader.sequenceParameters.flipAngle_deg[0]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s17"><Data ss:Type="String">flip_angle_dis</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">dissolved phase flip angle</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">degrees</Data></Cell>
-    <Cell ss:StyleID="s22"><Data ss:Type="String">ismrmrdHeader.sequenceParameters.flipAngle_deg[1]</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">NA</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s17"/>
-    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">flip_angle_dis</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">dissolved phase flip angle</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">degrees</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ismrmrdHeader.sequenceParameters.flipAngle_deg[1]</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s17"><Data ss:Type="String">ramp_time</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">ramp time</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">us</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">ismrmrdHeader.encoding[0].trajectoryDescription.userParameterLong </Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">&quot;ramp_time&quot;</Data></Cell>
-    <Cell ss:StyleID="s17"/>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s21"><ss:Data ss:Type="String"
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ramp_time</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ramp time</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">us</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ismrmrdHeader.encoding[0].trajectoryDescription.userParameterLong </Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&quot;ramp_time&quot;</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s67"><ss:Data ss:Type="String"
       xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Color="#000000">This is a user-defined variable that is not in userParameterLong by default.</Font></B><Font
        html:Color="#000000"> Each index, has a 'name' and 'value'. We previously specified location by index number, changed to specifying by variable name</Font></ss:Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s17"><Data ss:Type="String">sample_time</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">time between digitized samples (AKA dwell time)</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">us</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">AcquisitionHeader.sample_time_us</Data></Cell>
-    <Cell ss:StyleID="s17"/>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s21"><Data ss:Type="String">Previous location was ismrmrdHeader.encoding[0].trajectoryDescription.userParameterDouble[0]. Note that this parameter has a value for each FID acquisition.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">sample_time</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">time between digitized samples (AKA dwell time)</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">us</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">AcquisitionHeader.sample_time_us</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Previous location was ismrmrdHeader.encoding[0].trajectoryDescription.userParameterDouble[0]. Note that this parameter has a value for each FID acquisition.</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s17"><Data ss:Type="String">xe_center_frequency</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">center frequency of 129Xe in the gas phase</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">Hz</Data></Cell>
-    <Cell ss:StyleID="s22"><Data ss:Type="String">ismrmrdHeader.userParameters.userParameterLong</Data></Cell>
-    <Cell ss:StyleID="s22"><Data ss:Type="String">&quot;xe_center_frequency&quot;</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s17"/>
-    <Cell ss:StyleID="s21"><ss:Data ss:Type="String"
+    <Cell ss:StyleID="s63"><Data ss:Type="String">xe_center_frequency</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">center frequency of 129Xe in the gas phase</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Hz</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ismrmrdHeader.userParameters.userParameterLong</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&quot;xe_center_frequency&quot;</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s67"><ss:Data ss:Type="String"
       xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Color="#000000">This is a user-defined variable that is not in userParameterLong by default.</Font></B><Font
        html:Color="#000000"> Previous location was ismrmrdHeader.encoding[0].trajectoryDescription.userParameterDouble[2]</Font></ss:Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s17"><Data ss:Type="String">xe_dissolved_offset_frequency</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">dissolved phase frequency minus center frequency</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">Hz</Data></Cell>
-    <Cell ss:StyleID="s22"><Data ss:Type="String">ismrmrdHeader.userParameters.userParameterLong</Data></Cell>
-    <Cell ss:StyleID="s22"><Data ss:Type="String">&quot;xe_dissolved_offset_frequency&quot;</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s17"/>
-    <Cell ss:StyleID="s21"><ss:Data ss:Type="String"
+    <Cell ss:StyleID="s63"><Data ss:Type="String">xe_dissolved_offset_frequency</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">dissolved phase frequency minus center frequency</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Hz</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ismrmrdHeader.userParameters.userParameterLong</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&quot;xe_dissolved_offset_frequency&quot;</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s67"><ss:Data ss:Type="String"
       xmlns="http://www.w3.org/TR/REC-html40"><B><Font html:Color="#000000">This is a user-defined variable that is not in userParameterLong by default. </Font></B><Font
        html:Color="#000000">Previous location was ismrmrdHeader.encoding[0].trajectoryDescription.userParameterDouble[3].</Font></ss:Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s17"><Data ss:Type="String">matrix_size_z</Data></Cell>
-    <Cell ss:StyleID="s18"/>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">unitless integer</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">ismrmrdHeader.encoding[0].reconSpace.matrixSize.z</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">NA</Data></Cell>
-    <Cell ss:StyleID="s17"/>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">matrix_size_z</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">unitless integer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ismrmrdHeader.encoding[0].reconSpace.matrixSize.z</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s64"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s17"><Data ss:Type="String">orientation</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">orientation of reconsructed image</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">string (&quot;coronal&quot;, &quot;transverse&quot;, or &quot;axial&quot;)</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">ismrmrdHeader.userParameters.userParameterString</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">&quot;orientation&quot;</Data></Cell>
-    <Cell ss:StyleID="s17"/>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">orientation</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">orientation of reconsructed image</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">string (&quot;coronal&quot;, &quot;transverse&quot;, or &quot;axial&quot;)</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ismrmrdHeader.userParameters.userParameterString</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&quot;orientation&quot;</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s64"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s17"><Data ss:Type="String">fov[0]</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">field of view x dimension</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">mm</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">ismrmrdHeader.encoding[0].reconSpace.fieldOfView_mm.x</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">NA</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">fov[0]</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">field of view x dimension</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">mm</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ismrmrdHeader.encoding[0].reconSpace.fieldOfView_mm.x</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s64"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s17"><Data ss:Type="String">fov[1]</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">field of view y dimension</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">mm</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">ismrmrdHeader.encoding[0].reconSpace.fieldOfView_mm.y</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">NA</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">fov[1]</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">field of view y dimension</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">mm</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ismrmrdHeader.encoding[0].reconSpace.fieldOfView_mm.y</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s64"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s17"><Data ss:Type="String">fov[2]</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">field of view z dimension</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">mm</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">ismrmrdHeader.encoding[0].reconSpace.fieldOfView_mm.z</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">NA</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">fov[2]</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">field of view z dimension</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">mm</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ismrmrdHeader.encoding[0].reconSpace.fieldOfView_mm.z</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s64"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s17"><Data ss:Type="String">traj_gas/traj_dis/traj_proton</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">k-space trajectory for gas, dissolved, or proton scan</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">array-like, from -0.5 to 0.5 k-max</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">Acquisition.traj</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">NA</Data></Cell>
-    <Cell ss:StyleID="s17"/>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s21"><Data ss:Type="String">Note that this parameter has a value for each FID acquisition</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">traj_gas/traj_dis/traj_proton</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">k-space trajectory for gas, dissolved, or proton scan</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">array-like, from -0.5 to 0.5 k-max</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Acquisition.traj</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NA</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Note that this parameter has a value for each FID acquisition</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s18"><Data ss:Type="String">contrast_labels</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">denotes whether an FID acquisition corresponds to proton, Xe gas phase or Xe dissolved phase excitation</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">unitless integer</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">AcquisitionHeader.idx.contrast</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">proton = 0, gas = 1, dissolved = 2</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s19"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s21"><Data ss:Type="String">Note that this parameter has a value for each FID acquisition.</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">contrast_labels</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">denotes whether an FID acquisition corresponds to proton, Xe gas phase or Xe dissolved phase excitation</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">unitless integer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">AcquisitionHeader.idx.contrast</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">proton = 0, gas = 1, dissolved = 2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Note that this parameter has a value for each FID acquisition.</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s18"><Data ss:Type="String">bonus_spectra_labels</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">denotes whether an FID acquisition is part of bonus spectra or not</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">unitless integer</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">AcquisitionHeader.measurement_uid</Data></Cell>
-    <Cell ss:StyleID="s18"><Data ss:Type="String">not bonus spectra acquisition = 0, bonus spectra acquisition = 1</Data></Cell>
-    <Cell ss:StyleID="s24"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s24"><Data ss:Type="String">x</Data></Cell>
-    <Cell ss:StyleID="s18"/>
-    <Cell ss:StyleID="s21"><Data ss:Type="String">Note that this parameter has a value for each FID acquisition.</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">bonus_spectra_labels</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">denotes whether an FID acquisition is part of bonus spectra or not</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">unitless integer</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">AcquisitionHeader.measurement_uid</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">not bonus spectra acquisition = 0, bonus spectra acquisition = 1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Note that this parameter has a value for each FID acquisition.</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s25"/>
-    <Cell ss:Index="7" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">set_labels</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">denotes the echo number to which a FID belongs for multi-echo sequences.</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">unitless integer</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">AcquisitionHeader.idx.set</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">first echo = 1, second echo = 2, etc</Data></Cell>
+    <Cell ss:StyleID="s77"/>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">x</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Note that this parameter has a value for each FID acquisition.</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s16"><Data ss:Type="String">sequence</Data></Cell>
-    <Cell ss:StyleID="s16"/>
-    <Cell ss:StyleID="s16"><Data ss:Type="String">file name</Data></Cell>
-    <Cell ss:StyleID="s16"><Data ss:Type="String">extension</Data></Cell>
-    <Cell ss:StyleID="s16"><Data ss:Type="String">notes</Data></Cell>
+    <Cell ss:Index="2" ss:StyleID="s84"/>
+    <Cell ss:Index="4" ss:StyleID="s84"/>
+    <Cell ss:Index="6" ss:StyleID="s81"/>
+    <Cell ss:StyleID="s94"/>
+    <Cell ss:StyleID="s94"/>
+    <Cell ss:StyleID="s95"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s17"><Data ss:Type="String">proton</Data></Cell>
-    <Cell ss:StyleID="s17"/>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">&quot;subjectID_proton&quot;</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">&quot;.h5&quot;</Data></Cell>
-    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">sequence</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">file name</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">extension</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">notes</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s17"><Data ss:Type="String">calibration</Data></Cell>
-    <Cell ss:StyleID="s17"/>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">&quot;subjectID_calibration&quot;</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">&quot;.h5&quot;</Data></Cell>
-    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">proton</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&quot;subjectID_proton&quot;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&quot;.h5&quot;</Data></Cell>
+    <Cell ss:StyleID="s64"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s17"><Data ss:Type="String">Dixon</Data></Cell>
-    <Cell ss:StyleID="s17"/>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">&quot;subjectID_dixon&quot;</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">&quot;.h5&quot;</Data></Cell>
-    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">calibration</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&quot;subjectID_calibration&quot;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&quot;.h5&quot;</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Dixon</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&quot;subjectID_dixon&quot;</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">&quot;.h5&quot;</Data></Cell>
+    <Cell ss:StyleID="s64"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75"/>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
-    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75" ss:Span="969"/>
   </Table>
@@ -512,8 +605,8 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>35</ActiveRow>
-     <ActiveCol>3</ActiveCol>
+     <ActiveRow>26</ActiveRow>
+     <ActiveCol>4</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -523,17 +616,17 @@
  <Worksheet ss:Name="rev_history">
   <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="2" x:FullColumns="1"
    x:FullRows="1" ss:DefaultColumnWidth="66" ss:DefaultRowHeight="15.75">
-   <Column ss:StyleID="s28" ss:AutoFitWidth="0" ss:Width="65.25"/>
-   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="330.75"/>
-   <Row>
-    <Cell ss:StyleID="s27"><Data ss:Type="String">REVISION</Data></Cell>
-    <Cell ss:StyleID="s25"><Data ss:Type="String">DATE</Data></Cell>
-    <Cell ss:StyleID="s25"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+   <Column ss:StyleID="s70" ss:AutoFitWidth="0" ss:Width="65"/>
+   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="331"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">REVISION</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">DATE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">DESCRIPTION</Data></Cell>
    </Row>
-   <Row>
-    <Cell ss:StyleID="s27"><Data ss:Type="String">1.0</Data></Cell>
-    <Cell ss:StyleID="s29"><Data ss:Type="DateTime">2024-04-23T00:00:00.000</Data></Cell>
-    <Cell ss:StyleID="s25"><Data ss:Type="String">Initial upload to XeCTC Git repository</Data></Cell>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s71"><Data ss:Type="String">1.0</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="DateTime">2024-04-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Initial upload to XeCTC Git repository</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -542,6 +635,7 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
+   <Unsynced/>
    <Panes>
     <Pane>
      <Number>3</Number>

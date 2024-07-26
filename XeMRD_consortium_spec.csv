@@ -21,9 +21,9 @@ fov[0],field of view x dimension,mm,ismrmrdHeader.encoding[0].reconSpace.fieldOf
 fov[1],field of view y dimension,mm,ismrmrdHeader.encoding[0].reconSpace.fieldOfView_mm.y,NA,x,x,x,
 fov[2],field of view z dimension,mm,ismrmrdHeader.encoding[0].reconSpace.fieldOfView_mm.z,NA,x,x,x,
 traj_gas/traj_dis/traj_proton,"k-space trajectory for gas, dissolved, or proton scan","array-like, from -0.5 to 0.5 k-max",Acquisition.traj,NA,,x,x,Note that this parameter has a value for each FID acquisition
-contrast_labels,"denotes whether an FID acquisition corresponds to proton, Xe gas phase or Xe dissolved phase excitation",unitless integer,AcquisitionHeader.idx.contrast,"proton = 0, gas = 1, dissolved = 2",x,x,x,Note that this parameter has a value for each FID acquisition.
-bonus_spectra_labels,denotes whether an FID acquisition is part of bonus spectra or not,unitless integer,AcquisitionHeader.measurement_uid,"not bonus spectra acquisition = 0, bonus spectra acquisition = 1",x,x,,Note that this parameter has a value for each FID acquisition.
-set_labels,denotes the echo number to which a FID belongs for multi-echo sequences.,unitless integer,AcquisitionHeader.idx.set,"first echo = 1, second echo = 2, etc",,x,,Note that this parameter has a value for each FID acquisition.
+contrast_labels,"Denotes whether each FID corresponds to proton, Xe gas phase or Xe dissolved phase excitation",unitless integer,AcquisitionHeader.idx.contrast,"proton = 0, gas = 1, dissolved = 2",x,x,x,Note that this parameter has a value for each FID acquisition.
+bonus_spectra_labels,Denotes whether each FID acquisition is part of bonus spectra ,unitless integer,AcquisitionHeader.measurement_uid,"not bonus spectra acquisition = 0, bonus spectra acquisition = 1",x,x,,Note that this parameter has a value for each FID acquisition.
+set_labels,Echo number to which a FID belongs for multi-echo sequences.,unitless integer,AcquisitionHeader.idx.set,"first echo = 1, second echo = 2, etc",,x,,Note that this parameter has a value for each FID acquisition.
 ,,,,,,,,
 sequence,,file name,extension,notes,,,,
 proton,,"""subjectID_proton""",""".h5""",,,,,

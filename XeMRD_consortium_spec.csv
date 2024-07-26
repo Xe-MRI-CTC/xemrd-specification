@@ -1,0 +1,31 @@
+﻿GX pipeline variable,description,units,MRD location field,MRD name/label,calibration,dixon,proton,notes
+scan_date,scan date,YYYY-MM-DD,ismrmrdHeader.studyInformation.studyDate,NA,x,x,x,Previous location was ismrmrdHeader.measurementInformation.scandate. Scandate is not a member of the ismrmrdHeader class in ismrmrd python package
+subject_id,subject ID,string,ismrmrdHeader.subjectInformation.patientID,NA,x,x,x,"If unavailable from raw data, you do not need to write the field"
+system_vendor,MRI system vendor (e.g. 'Siemens'),string,ismrmrdHeader.acquisitionSystemInformation.systemVendor,NA,x,x,x,
+institution,institution (e.g. 'University of Iowa'),string,ismrmrdHeader.acquisitionSystemInformation.institutionName,NA,x,x,x,
+field_strength,scanner field strength,Tesla,ismrmrdHeader.acquisitionSystemInformation.systemFieldStrength_T,NA,x,x,x,
+te90,echo time,ms,ismrmrdHeader.sequenceParameters.TE,NA,x,x,x,
+tr_proton,time bewteen proton excitations,ms,ismrmrdHeader.sequenceParameters.TR[0],NA,,,x,
+tr_gas,Calibration sequence: time between gas excitations. Dixon sequence: time from gas to dissolved excitation,ms,ismrmrdHeader.sequenceParameters.TR[0],NA,x,x,,"Note that in interleaved sequences, this can be different from tr_dis"
+tr_dis,Calibration sequence: time between dissolved excitations. Dixon sequence: time from dissolved to gas excitation,ms,ismrmrdHeader.sequenceParameters.TR[1],NA,x,x,,"Note that in interleaved sequences, this can be different from tr_gas"
+flip_angle_proton,proton flip angle,degrees,ismrmrdHeader.sequenceParameters.flipAngle_deg[0],NA,,,x,
+flip_angle_gas,gas phase flip angle,degrees,ismrmrdHeader.sequenceParameters.flipAngle_deg[0],NA,x,x,,
+flip_angle_dis,dissolved phase flip angle,degrees,ismrmrdHeader.sequenceParameters.flipAngle_deg[1],NA,x,x,,
+ramp_time,ramp time,us,ismrmrdHeader.encoding[0].trajectoryDescription.userParameterLong ,"""ramp_time""",,x,x,"This is a user-defined variable that is not in userParameterLong by default. Each index, has a 'name' and 'value'. We previously specified location by index number, changed to specifying by variable name"
+sample_time,time between digitized samples (AKA dwell time),us,AcquisitionHeader.sample_time_us,,x,x,x,Previous location was ismrmrdHeader.encoding[0].trajectoryDescription.userParameterDouble[0]. Note that this parameter has a value for each FID acquisition.
+xe_center_frequency,center frequency of 129Xe in the gas phase,Hz,ismrmrdHeader.userParameters.userParameterLong,"""xe_center_frequency""",x,x,,This is a user-defined variable that is not in userParameterLong by default. Previous location was ismrmrdHeader.encoding[0].trajectoryDescription.userParameterDouble[2]
+xe_dissolved_offset_frequency,dissolved phase frequency minus center frequency,Hz,ismrmrdHeader.userParameters.userParameterLong,"""xe_dissolved_offset_frequency""",x,x,,This is a user-defined variable that is not in userParameterLong by default. Previous location was ismrmrdHeader.encoding[0].trajectoryDescription.userParameterDouble[3].
+matrix_size_z,,unitless integer,ismrmrdHeader.encoding[0].reconSpace.matrixSize.z,NA,,x,x,
+orientation,orientation of reconsructed image,"string (""coronal"", ""transverse"", or ""axial"")",ismrmrdHeader.userParameters.userParameterString,"""orientation""",,x,x,
+fov[0],field of view x dimension,mm,ismrmrdHeader.encoding[0].reconSpace.fieldOfView_mm.x,NA,x,x,x,
+fov[1],field of view y dimension,mm,ismrmrdHeader.encoding[0].reconSpace.fieldOfView_mm.y,NA,x,x,x,
+fov[2],field of view z dimension,mm,ismrmrdHeader.encoding[0].reconSpace.fieldOfView_mm.z,NA,x,x,x,
+traj_gas/traj_dis/traj_proton,"k-space trajectory for gas, dissolved, or proton scan","array-like, from -0.5 to 0.5 k-max",Acquisition.traj,NA,,x,x,Note that this parameter has a value for each FID acquisition
+contrast_labels,"denotes whether an FID acquisition corresponds to proton, Xe gas phase or Xe dissolved phase excitation",unitless integer,AcquisitionHeader.idx.contrast,"proton = 0, gas = 1, dissolved = 2",x,x,x,Note that this parameter has a value for each FID acquisition.
+bonus_spectra_labels,denotes whether an FID acquisition is part of bonus spectra or not,unitless integer,AcquisitionHeader.measurement_uid,"not bonus spectra acquisition = 0, bonus spectra acquisition = 1",x,x,,Note that this parameter has a value for each FID acquisition.
+set_labels,denotes the echo number to which a FID belongs for multi-echo sequences.,unitless integer,AcquisitionHeader.idx.set,"first echo = 1, second echo = 2, etc",,x,,Note that this parameter has a value for each FID acquisition.
+,,,,,,,,
+sequence,,file name,extension,notes,,,,
+proton,,"""subjectID_proton""",""".h5""",,,,,
+calibration,,"""subjectID_calibration""",""".h5""",,,,,
+Dixon,,"""subjectID_dixon""",""".h5""",,,,,

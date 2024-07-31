@@ -258,3 +258,13 @@
 > **Proton**: No <br>
 > **Notes**: Note that this parameter has a value for each FID acquisition <br>
 
+***25.*** **Variable**: `set_labels` <br>
+> **Description**: denotes the echo number to which a FID belongs for multi-echo sequences <br>
+> **Units**: unitless integer <br>
+> **MRD Location Field**: `AcquisitionHeader.idx.set`<br>
+> **MRD Name/Label**: first echo = 1, second echo = 2, etc <br>
+> **Calibration**: No <br>
+> **Dixon**: Yes <br>
+> **Proton**: No <br>
+> **Notes**: Note that this parameter has a value for each FID acquisition <br>
+

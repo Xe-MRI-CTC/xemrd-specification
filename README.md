@@ -79,7 +79,7 @@
 > **Notes**: <br>
 
 ***7.*** **Variable**: `tr_proton` <br>
-> **Description**: time bewteen proton excitations <br>
+> **Description**: time between proton excitations <br>
 > **Units**: ms <br>
 > **MRD Location Field**: `ismrmrdHeader.sequenceParameters.TR[0]`<br>
 > **MRD Name/Label**: N/A <br>
@@ -158,7 +158,17 @@
 > **Proton**: Yes <br>
 > **Notes**: Previous location was ismrmrdHeader.encoding[0].trajectoryDescription.userParameterDouble[0]. Note that this parameter has a value for each FID acquisition. <br>
 
-***15.*** **Variable**: `xe_center_frequency` <br>
+***15.*** **Variable**: `prep_pulses` <br>
+> **Description**: Indicates the use of prep pulses prior to data acquisition, e.g. in order to destroy downstream magnetization <br>
+> **Units**: boolean <br>
+> **MRD Location Field**: `ismrmrdHeader.sequenceParameters.prep_pulses` <br>
+> **MRD Name/Label**: N/A <br>
+> **Calibration**: Yes <br>
+> **Dixon**: Yes <br>
+> **Proton**: Yes <br>
+> **Notes**: TRUE = prep pulses were used; FALSE = prep pulses were not used <br>
+
+***16.*** **Variable**: `xe_center_frequency` <br>
 > **Description**: center frequency of 129Xe in the gas phase <br>
 > **Units**: Hz <br>
 > **MRD Location Field**: `ismrmrdHeader.userParameters.userParameterLong`<br>
@@ -168,7 +178,7 @@
 > **Proton**: No <br>
 > **Notes**: This is a user-defined variable that is not in userParameterLong by default. Previous location was ismrmrdHeader.encoding[0].trajectoryDescription.userParameterDouble[2] <br>
 
-***16.*** **Variable**: `xe_dissolved_offset_frequency` <br>
+***17.*** **Variable**: `xe_dissolved_offset_frequency` <br>
 > **Description**: dissolved phase frequency minus center frequency <br>
 > **Units**: Hz <br>
 > **MRD Location Field**: `ismrmrdHeader.userParameters.userParameterLong`<br>
@@ -178,7 +188,7 @@
 > **Proton**: No <br>
 > **Notes**: This is a user-defined variable that is not in userParameterLong by default. Previous location was ismrmrdHeader.encoding[0].trajectoryDescription.userParameterDouble[3]. <br>
 
-***17.*** **Variable**: `matrix_size_z` <br>
+***18.*** **Variable**: `matrix_size_z` <br>
 > **Description**: size of matrix in z dimension<br>
 > **Units**: unitless integer <br>
 > **MRD Location Field**: `ismrmrdHeader.encoding[0].reconSpace.matrixSize.z`<br>
@@ -188,7 +198,7 @@
 > **Proton**: Yes <br>
 > **Notes**: <br>
 
-***18.*** **Variable**: `orientation` <br>
+***19.*** **Variable**: `orientation` <br>
 > **Description**: orientation of reconsructed image <br>
 > **Units**: string ("coronal", "transverse", or "axial") <br>
 > **MRD Location Field**: `ismrmrdHeader.userParameters.userParameterString`<br>
@@ -198,7 +208,7 @@
 > **Proton**: Yes <br>
 > **Notes**:<br>
 
-***19.*** **Variable**: `fov[0]` <br>
+***20.*** **Variable**: `fov[0]` <br>
 > **Description**: field of view x dimension <br>
 > **Units**: mm <br>
 > **MRD Location Field**: `ismrmrdHeader.encoding[0].reconSpace.fieldOfView_mm.x`<br>
@@ -208,7 +218,7 @@
 > **Proton**: Yes <br>
 > **Notes**: <br>
 
-***20.*** **Variable**: `fov[1]` <br>
+***21.*** **Variable**: `fov[1]` <br>
 > **Description**: field of view y dimension <br>
 > **Units**: mm <br>
 > **MRD Location Field**: `ismrmrdHeader.encoding[0].reconSpace.fieldOfView_mm.y`<br>
@@ -218,7 +228,7 @@
 > **Proton**: Yes <br>
 > **Notes**: <br>
 
-***21.*** **Variable**: `fov[2]` <br>
+***22.*** **Variable**: `fov[2]` <br>
 > **Description**: field of view z dimension <br>
 > **Units**: mm <br>
 > **MRD Location Field**: `ismrmrdHeader.encoding[0].reconSpace.fieldOfView_mm.z`<br>
@@ -228,7 +238,7 @@
 > **Proton**: Yes <br>
 > **Notes**: <br>
 
-***22.*** **Variable**: `traj_gas`/`traj_dis`/`traj_proton` <br>
+***23.*** **Variable**: `traj_gas`/`traj_dis`/`traj_proton` <br>
 > **Description**: k-space trajectory for gas, dissolved, or proton scan <br>
 > **Units**: array-like, from -0.5 to 0.5 k-max <br>
 > **MRD Location Field**: `Acquisition.traj`<br>
@@ -238,7 +248,7 @@
 > **Proton**: Yes <br>
 > **Notes**: Note that this parameter has a value for each FID acquisition <br>
 
-***23.*** **Variable**: `contrast_labels` <br>
+***24.*** **Variable**: `contrast_labels` <br>
 > **Description**: denotes whether an FID acquisition corresponds to proton, Xe gas phase or Xe dissolved phase excitation <br>
 > **Units**: unitless integer <br>
 > **MRD Location Field**: `AcquisitionHeader.idx.contrast`<br>
@@ -248,7 +258,7 @@
 > **Proton**: Yes <br>
 > **Notes**: Note that this parameter has a value for each FID acquisition <br>
 
-***24.*** **Variable**: `bonus_spectra_labels` <br>
+***25.*** **Variable**: `bonus_spectra_labels` <br>
 > **Description**: denotes whether an FID acquisition is part of bonus spectra or not <br>
 > **Units**: unitless integer <br>
 > **MRD Location Field**: `AcquisitionHeader.measurement_uid`<br>
@@ -258,7 +268,7 @@
 > **Proton**: No <br>
 > **Notes**: Note that this parameter has a value for each FID acquisition <br>
 
-***25.*** **Variable**: `set_labels` <br>
+***26.*** **Variable**: `set_labels` <br>
 > **Description**: denotes the echo number to which a FID belongs for multi-echo sequences <br>
 > **Units**: unitless integer <br>
 > **MRD Location Field**: `AcquisitionHeader.idx.set`<br>

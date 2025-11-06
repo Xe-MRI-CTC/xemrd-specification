@@ -161,8 +161,8 @@
 ***15.*** **Variable**: `prep_pulses` <br>
 > **Description**: Indicates the use of prep pulses prior to data acquisition, e.g. in order to destroy downstream magnetization <br>
 > **Units**: boolean <br>
-> **MRD Location Field**: `ismrmrdHeader.sequenceParameters.prep_pulses` <br>
-> **MRD Name/Label**: N/A <br>
+> **MRD Location Field**: `ismrmrdHeader.userParameters.userParameterString` <br>
+> **MRD Name/Label**: `prep_pulses` <br>
 > **Calibration**: Yes <br>
 > **Dixon**: Yes <br>
 > **Proton**: Yes <br>
